@@ -1,0 +1,57 @@
+#container {
+  height: 400px;
+  width: 1350px;
+  position: relative;
+  background-color: red;
+  
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 400px; 
+	top: 70px;
+    width:400px;
+    height:280px;
+}
+
+.TítuloEngenharia {
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  text-align: left;
+  text-indent: 42px;
+
+  
+}
+
+#DescriçãoEngenharia {
+  position: relative;
+  left: 850px;
+  padding-right: 150px;
+  padding-top: 100px;
+  color: black;
+  font-style: italic;
+  font-size: 20px;
+  text-align: justify;
+    
+}
+
+.Projetos {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td{
+	text-align: center;
+}
+.Voltar{
+	text-align: right;
+}
