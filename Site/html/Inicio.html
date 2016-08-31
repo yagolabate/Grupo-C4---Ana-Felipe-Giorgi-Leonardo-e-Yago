@@ -38,7 +38,9 @@ Projetos que demonstram competências das engenharias Mecânica, Mecatrônica e 
 
 
 <div class="dropdown">
-    <p><a class="button" style="background-color: black; width: 5em; height: 3em; line-height: 3em; font-size: 2em; float: left; margin-right: 1em; text-align: center;" target="_blank">MEC</a></p>
+
+    <p><div class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">MEC</a></div></div>
+</p>
     <div class="dropdown-content">
     <ul>
 		<li><a href="BarataEletrica.html">Barata elétrica</a></li>
@@ -52,10 +54,53 @@ Projetos que demonstram competências das engenharias Mecânica, Mecatrônica e 
   </div>
 </div>
 
+<style type="text/css">
+
+.round-button {
+	width:25%;
+}
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#30588e;
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+
+
+
+</style>
+
+
 
 
 <div class="dropdown">
-  <p><a class="button" style="background-color: black; width: 5em; height: 3em; line-height: 3em; font-size: 2em; float: left; margin-right: 1em; text-align: center;" target="_blank">MECAT</a></p>
+  <p><div class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">MECAT</a></div></div></p>
     <div class="dropdown-content">
     <ul>
 		<li> <a href="EstacaoMeteorologica.html">Estação Meteorológica</a></li>
@@ -72,7 +117,7 @@ Projetos que demonstram competências das engenharias Mecânica, Mecatrônica e 
 
 
 <div class="dropdown">
-  <p><a class="button" style="background-color: black; width: 5em; height: 3em; line-height: 3em; font-size: 2em; text-align: center;" target="_blank">COMP</a></p>
+  <p><div class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">COMP</a></div></div></p>
 
     <div class="dropdown-content">
     <ul>
@@ -166,10 +211,10 @@ Projetos que demonstram competências das engenharias Mecânica, Mecatrônica e 
 
 
 
-<p><a class="button" style="background-color: black; width: 5em; height: 3em; line-height: 3em; font-size: 2em; float: left; margin-right: 1em; text-align: center;" href="AnaCapriles.html" target="_blank">Ana</a></p>
-<p><a class="button" style="background-color: black; width: 5em; height: 3em; line-height: 3em; font-size: 2em; float: left; margin-right: 1em; text-align: center;" href="FelipeGiorgi.html" target="_blank">Felipe</a></p>
-<p><a class="button" style="background-color: black; width: 5em; height: 3em; line-height: 3em; font-size: 2em; text-align: center;" href="LeonardoStayner.html"" target="_blank">Leo</a></p>
-<p><a class="button" style="background-color: black; width: 5em; height: 3em; line-height: 3em; font-size: 2em; float: left; margin-right: 1em; text-align: center;" href="YagoLabate.html" target="_blank">Yago</a></p>
+<p><div class="round-button"><div class="round-button-circle"><a href="AnaCapriles.html" class="round-button">Ana</a></div></div></p>
+<p><div class="round-button"><div class="round-button-circle"><a href="FelipeGiorgi.html" target="_blank">Felipe</a></p> class="round-button">Felipe</a></div></div></p>
+<p><div class="round-button"><div class="round-button-circle"><a href="LeonardoStayner.html" class="round-button">Leo</a></div></div></p>
+<p><div class="round-button"><div class="round-button-circle"><a href="YagoLabate.html" class="round-button">Yago</a></div></div></p>
 
 		<div class="clear"></div>
 		</div>
@@ -198,6 +243,7 @@ Projetos que demonstram competências das engenharias Mecânica, Mecatrônica e 
 
 <style>
 li a{color:black; background-color:transparent; text-decoration:none}
+
 .dropbtn {
     background-color: grey;
     color: white;
