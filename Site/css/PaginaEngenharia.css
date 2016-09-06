@@ -2,7 +2,7 @@
   height: 400px;
   width: 1350px;
   position: relative;
-  background-color: red;
+  background-color: black;
   
 
 }
@@ -19,10 +19,11 @@ img {
 
 .TítuloEngenharia {
   position: absolute;
-  color: black;
+  color: white;
   font-size: 40px;
   text-align: left;
   text-indent: 42px;
+  font-weight: bold;
 
   
 }
@@ -32,7 +33,7 @@ img {
   left: 850px;
   padding-right: 150px;
   padding-top: 100px;
-  color: black;
+  color: white;
   font-style: italic;
   font-size: 20px;
   text-align: justify;
@@ -43,14 +44,24 @@ img {
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
+  color: #c00026
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 4px solid black;
+    color: #c00026;
+    border-color: black;
+    border-collapse: collapse;
+    
+}
+
+th {
+  font-size: 18px;
 }
 
 td{
 	text-align: center;
+  color: black;
 }
 .Voltar{
 	text-align: right;
