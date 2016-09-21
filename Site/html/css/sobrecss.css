@@ -141,16 +141,16 @@ div div p{
 
 .DivBotao {
 	width:20%;
-	margin :0px 80px 0px 80px;
+	margin :0px 80px 0px 96px;
 
 
 }
 
 .Botao {
-	width: 300px;
+	width: 200px;
 	height:0;
-	padding-bottom: 100%;
-    border-radius: 50%;
+	padding-bottom: 70%;
+    border-radius: 100%;
 	border:10px solid black;
     overflow:hidden;
     
@@ -162,19 +162,36 @@ div div p{
 	background:white;
 }
 
-.DivBotao a {
+.DivBotao1 {
 	float:left;
 	width:100%;
 	padding-top:40%;
     padding-bottom:50%;
-	line-height:1em;
+	line-height:2em;
 	margin-top:-0.5em;
 	margin-left:-0.1em;
     
 	text-align:center;
 	color:red;
     font-family:Verdana;
-    font-size:2em;
+    font-size:1.5em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.DivBotao2  {
+	float:left;
+	width:100%;
+	padding-top:40%;
+    padding-bottom:50%;
+	line-height:2em;
+	margin-top:-2.4em;
+	margin-left:-0.1em;
+    
+	text-align:center;
+	color:red;
+    font-family:Verdana;
+    font-size:1.5em;
     font-weight:bold;
     text-decoration:none;
 }
