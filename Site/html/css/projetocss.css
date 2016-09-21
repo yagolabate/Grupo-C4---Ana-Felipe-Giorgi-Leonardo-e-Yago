@@ -1,0 +1,94 @@
+body {
+	margin:0px;
+	background-color: #D3D3D3;
+}
+
+#Imagem {
+	width: 100%;
+	height:600px;
+	background-image:url('http://msalx.vejasp.abril.com.br/2016/06/24/1702/jcclk/mundo_maker_002.jpeg?1466798625'); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 0px;
+}
+
+
+#DivProjeto {
+	margin:0px;
+	width:50%;
+}
+
+
+#NomeProjeto {
+
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px;
+    column-rule-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold normal 60px / 72px PreloSlab-Book, Verdana;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    margin: 0px
+
+}
+
+#Materia {
+	padding:1%;
+	width:98%;
+	margin :15px 0px 15px 0px;
+	position:center;
+	background-color: #FFFFFF;
+}
+
+
+h3 {
+    color: red;
+    column-rule-color: rgb(51, 51, 50);
+    border: 0px none rgb(51, 51, 50);
+    font: normal normal bold normal 22px / 37.4px PreloSlab-Book, Verdana;
+    outline: rgb(51, 51, 50) none 0px;
+    text-align: center 	
+}
+
+p {
+	color:#000000;
+	font: normal normal normal normal 16px / 27.2px Prelo-Book, Verdana;
+
+}
+
+
+#DivDescriçao {
+	margin:0px;
+	width:40%; 
+}
+
+
+
+#BreveDescrição {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px;
+    column-rule-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold normal 20px / 24px PreloSlab-Book, Verdana;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+#Materiais {
+	padding:1%;
+	width:98%;
+	margin :15px 0px 15px 0px;
+	position:center;
+	background-color: #FFFFFF;
+}
+
+#Detalhes {
+	padding:1%;
+	width:98%;
+	margin :15px 0px 15px 0px;
+	position:center;
+	background-color: #FFFFFF;
+}
+
