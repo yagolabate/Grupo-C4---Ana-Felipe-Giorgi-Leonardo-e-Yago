@@ -9,6 +9,7 @@ body {
 	background-image:url('http://msalx.vejasp.abril.com.br/2016/06/24/1702/jcclk/mundo_maker_002.jpeg?1466798625'); 
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 	padding: 0px;
 }
 
@@ -33,13 +34,6 @@ body {
 
 }
 
-#Materia {
-	padding:1%;
-	width:98%;
-	margin :15px 0px 15px 0px;
-	position:center;
-	background-color: #FFFFFF;
-}
 
 
 h3 {
@@ -79,7 +73,7 @@ p {
 #Materiais {
 	padding:1%;
 	width:98%;
-	margin :15px 0px 15px 0px;
+	margin :0px 0px 15px 0px;
 	position:center;
 	background-color: #FFFFFF;
 }
@@ -92,3 +86,15 @@ p {
 	background-color: #FFFFFF;
 }
 
+#DivVoltar {
+	background-color: white;
+	text-align: center;
+    padding: 15px 0px 0px 0px;
+	text-decoration: none;
+	color: red;
+	column-rule-color: rgb(51, 51, 50);
+    border: 0px none rgb(51, 51, 50);
+    font: normal normal bold normal 22px / 37.4px PreloSlab-Book, Verdana;
+    outline: rgb(51, 51, 50) none 0px;
+    text-align: center;
+}    
