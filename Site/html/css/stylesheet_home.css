@@ -882,3 +882,45 @@
 .Voltar{
     text-align: right;
 }
+#Imagem {
+    width: 100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 0px;
+}
+
+#DivDescriçao {
+    margin:0px;
+    width:40%; 
+
+}
+#DivNome {
+    margin:0px;
+    width:50%;
+ 
+}
+#Nome {
+
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: rgba(40, 40, 40, 0.2) 5px 5px 1px;
+    column-rule-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold normal 60px / 72px PreloSlab-Book, Verdana;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    margin: 0px
+}
+
+#Descrição {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.2) 5px 5px 1px;
+    column-rule-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold normal 20px / 24px PreloSlab-Book, Verdana;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+}
