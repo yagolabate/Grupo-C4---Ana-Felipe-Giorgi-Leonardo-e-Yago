@@ -3,15 +3,15 @@
 	<head>
 		<link type = 'text/css' rel = 'stylesheet' href = "../css/projetocss.css">
  		<meta charset="utf-8">	
-		<title>Nome do Projeto</title>
+		<title>Jogo da Velha</title>
 	</head>
 	<body>
 		<div id = 'Imagem'>
 			<div id = 'DivProjeto'> 
-				<p id = 'NomeProjeto'>Nome do Projeto</p>
+				<p id = 'NomeProjeto'>Jogo da Velha</p>
 			</div>
 			<div id = 'DivDescriçao' >
-				<p id = BreveDescrição>Breve Descrição</p>
+				<p id = BreveDescrição>O projeto do jogo da velha consistiu na programação de uma interface gráfica que gerenciaria um jogo da velha. Para sua realização, teria que ser levado em conta o fato de que ambos os jogadores utilizariam o mesmo computador e o mesmo programa para realizar as jogadas.</p>
 			</div>
 
 		</div>
@@ -19,15 +19,17 @@
 
 		<div id ='Materiais'>
 			<h3>Materiais utilizados</h3>
-			<p>Todo texto tem que ter alguns aspectos formais, ou seja, tem que ter estrutura, elementos que estabelecem relaçao entre si. Dentro dos aspectos formais temos a coesão e a coerência, que dão sentido e forma ao texto. "A coesão textual é a relação, a ligação, a conexão entre as palavras, expressões ou frases do texto”[4]. A coerência está relacionada com a compreensão, a interpretação do que se diz ou escreve. Um texto precisa ter sentido, isto é, precisa ter coerência. Embora a coesão não seja condição suficiente para que enunciados se constituam em textos, são os elementos coesivos que lhes dão maior legibilidade e evidenciam as relações entre seus diversos componentes, a coerência depende da coesão.</p>
+			<p>► Computador</p>
 		</div>	
 
 		<div id ='Detalhes'>
 			<h3>Detalhes(inicio, desenvolvimento, conclusão)</h3>
-			<p>Todo texto tem que ter alguns aspectos formais, ou seja, tem que ter estrutura, elementos que estabelecem relaçao entre si. Dentro dos aspectos formais temos a coesão e a coerência, que dão sentido e forma ao texto. "A coesão textual é a relação, a ligação, a conexão entre as palavras, expressões ou frases do texto”[4]. A coerência está relacionada com a compreensão, a interpretação do que se diz ou escreve. Um texto precisa ter sentido, isto é, precisa ter coerência. Embora a coesão não seja condição suficiente para que enunciados se constituam em textos, são os elementos coesivos que lhes dão maior legibilidade e evidenciam as relações entre seus diversos componentes, a coerência depende da coesão.</p>
+			<p>Para a realização desse projeto foram feitos dois arquivos diferente, um que houvesse os algoritmos do jogo e outro que fosse responsável pela sua interface gráfica. <br><br>
+O arquivo da interface, que deveria ser chamado de “classe tabuleiro”, consistiria na construção de um layout de um tabuleiro por meio do pacote “tkinter” da biblioteca do python. Na interface deveriam ser disponibilizados 9 botões dispostos em uma grade de tamanho 3x3, que quando pressionados, representariam uma jogada. A tela deveria ser limpa quando o jogo reiniciasse, ou seja, quando houvesse um ganhador ou um empate. Ela também deveria indicar qual jogador realizará a próxima jogada.<br><br>
+Já o arquivo dos algoritmos, que deveria ser chamado de “classe jogo”, Deveria receber a jogada quando um botão for pressionado, verificar se o jogo terminou e alternar os jogadores. Tal classe deveria ter 3 métodos. O primeiro seria responsável por receber e registrar uma jogada, e alternar os jogadores. O segundo deveria ser responsável por verificar se o jogo acabou, ou seja, verificar se há um vencedor ou se houve um empate. Por último, o terceiro teria que ser responsável por reiniciar o jogo, ou seja, limpar as jogadas feitas no tabuleiro.</p>
 		</div>	
-		<div>
-			<a href = '../inicio.html'>Voltar</a>
+		<div id = DivVoltar>	
+			<a id = 'DivVoltar' href = '../inicio.html'>Voltar à Pagina Inicial</a>
 		</div>	
 	</body>
 
