@@ -3,15 +3,25 @@
 	<head>
 		<link type = 'text/css' rel = 'stylesheet' href = "../css/projetocss.css">
  		<meta charset="utf-8">	
-		<title>Nome do Projeto</title>
+		<title>MusicBox</title>
 	</head>
 	<body>
 		<div id = 'Imagem'>
 			<div id = 'DivProjeto'> 
-				<p id = 'NomeProjeto'>Nome do Projeto</p>
+				<p id = 'NomeProjeto'>MusicBox</p>
 			</div>
 			<div id = 'DivDescriçao' >
-				<p id = BreveDescrição>Breve Descrição</p>
+				<p id = BreveDescrição>Primeiro passo - com o intuito de obter uma partitura, o usuário pode optar entre escolher um arquivo prè-existente de seu computador(clicando no botão 'escolher arquivo') ou realizar a gravação do aúdio(clicando no botão 'gravar').
+
+Segundo passo - a partir do momento em que o usuário já decidiu o arquivo que irá utilizar para obter a respectiva partitura, a próxima etapa é confirmar o arquivo escolhido.
+
+Terceiro passo - confirmado o arquivo, o usuário deve clicar no botão 'gerar cromagrama', responsável por transferir as frequências de áudio para um cromagrama.
+
+Quarto passo - o usuário pode optar por gerar uma partitura a partir do cromagrama clicando no botão 'gerar partitura'.
+
+Quinto passo - o usuário pode visualizar a partitura gerada clicando no botão 'mostrar partitura'.
+
+Resumindo, existe uma ordem a ser seguida para que o programa funcione de forma correta: escolher ou gravar um arquivo de aúdio; gerar uma partitura a partir do mesmo; visualizar a partitura na interface.</p>
 			</div>
 
 		</div>
@@ -19,13 +29,17 @@
 
 		<div id ='Materiais'>
 			<h3>Materiais utilizados</h3>
-			<p>Todo texto tem que ter alguns aspectos formais, ou seja, tem que ter estrutura, elementos que estabelecem relaçao entre si. Dentro dos aspectos formais temos a coesão e a coerência, que dão sentido e forma ao texto. "A coesão textual é a relação, a ligação, a conexão entre as palavras, expressões ou frases do texto”[4]. A coerência está relacionada com a compreensão, a interpretação do que se diz ou escreve. Um texto precisa ter sentido, isto é, precisa ter coerência. Embora a coesão não seja condição suficiente para que enunciados se constituam em textos, são os elementos coesivos que lhes dão maior legibilidade e evidenciam as relações entre seus diversos componentes, a coerência depende da coesão.</p>
-		</div>	
+			<p> The PyAudio library was used to record computer microphone input.
+
+The Librosa library was used to compute a chromagram.
+
+The LilyPond project was used in order to plot the sheet music.
+
+The Tkinter framework was used to write the GUI.	</div>	
 
 		<div id ='Detalhes'>
-			<h3>Detalhes(inicio, desenvolvimento, conclusão)</h3>
-			<p>Todo texto tem que ter alguns aspectos formais, ou seja, tem que ter estrutura, elementos que estabelecem relaçao entre si. Dentro dos aspectos formais temos a coesão e a coerência, que dão sentido e forma ao texto. "A coesão textual é a relação, a ligação, a conexão entre as palavras, expressões ou frases do texto”[4]. A coerência está relacionada com a compreensão, a interpretação do que se diz ou escreve. Um texto precisa ter sentido, isto é, precisa ter coerência. Embora a coesão não seja condição suficiente para que enunciados se constituam em textos, são os elementos coesivos que lhes dão maior legibilidade e evidenciam as relações entre seus diversos componentes, a coerência depende da coesão.</p>
-		</div>	
+			<h3></h3>
+			<p>This application receives a musical input from your computer microphone and generates its musical score as the output. All is very easy to do trough a GUI, with the whole program written in pure Python.</div>	
 		<div id = DivVoltar>	
 			<a id = 'DivVoltar' href = '../inicio.html'>Voltar à Pagina Inicial</a>
 		</div>	
