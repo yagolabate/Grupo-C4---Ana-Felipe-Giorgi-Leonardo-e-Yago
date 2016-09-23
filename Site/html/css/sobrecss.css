@@ -250,7 +250,12 @@ div div p{
 	color: #c00026;
 	column-rule-color: rgb(51, 51, 50);
     border: 0px none rgb(51, 51, 50);
-    font: normal normal bold normal 22px / 37.4px PreloSlab-Book, Verdana;
+    font: normal normal bold normal 16px / 37.4px PreloSlab-Book, Verdana;
     outline: rgb(51, 51, 50) none 0px;
     text-align: center;
-}    
+    text-underline-position: 
+}   
+
+#DivVoltar a {
+	text-decoration: none;
+}
